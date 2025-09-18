@@ -19,7 +19,7 @@ let package = Package(
     ],
     dependencies: [
         .package(url: "https://github.com/Jarema/Base32", from: "0.10.2"),
-        .package(url: "https://github.com/jedisct1/swift-sodium.git", from: "0.9.0"),
+        .package(url: "https://github.com/rfha/swift-sodium.git", branch: "master"),
         .package(url: "https://github.com/apple/swift-format.git", from: "0.509.0")
     ],
     targets: [
